@@ -337,9 +337,8 @@ Originally Developed by Hilmy Fauzi</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AHA-4S-xB6">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AHA-4S-xB6">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Main Menu" id="npe-kl-Lpa">
                                         <connections>
@@ -370,6 +369,11 @@ Originally Developed by Hilmy Fauzi</string>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="AHA-4S-xB6" firstAttribute="trailing" secondItem="JKc-7i-xWf" secondAttribute="trailing" id="HD5-S6-OGB"/>
+                            <constraint firstItem="AHA-4S-xB6" firstAttribute="bottom" secondItem="JKc-7i-xWf" secondAttribute="bottom" id="glw-lK-LMT"/>
+                            <constraint firstItem="AHA-4S-xB6" firstAttribute="leading" secondItem="JKc-7i-xWf" secondAttribute="leading" id="jg8-EZ-gEY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="JKc-7i-xWf"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Developer" image="manager" selectedImage="manager" id="bMM-Oi-A50"/>
